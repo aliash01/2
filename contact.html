@@ -32,12 +32,15 @@
             <p>Email: info@coffeeshop.com</p>
             <p>Phone: (123) 456-7890</p>
         </div>
-        <div class="contact-form">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea rows="5" placeholder="Your Message" required></textarea>
-            <button type="submit">Submit</button>
-        </div>
+            <div class="contact-form">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="c13047f0-50d9-47b2-98fa-2b6cf589aeda">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
     </div>
 </body>
 </html>
